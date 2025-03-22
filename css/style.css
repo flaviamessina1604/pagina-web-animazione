@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #F5F5F5;
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+display: flex;
+padding: 5px;
+justify-content: space-between;
+align-items:center;
+text-decoration: none;
+text-transform: uppercase;
+background-color: #000000;
+}
+
+nav ul {
+    margin: 16px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 162px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: white;
+
+}
+
+.titolo h1{
+    margin: 50px;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    font-size: 128px;
+}
+
+.image img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.paragrafo2 h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+.paragrafo2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0px 400px;
+}
+
+.paragrafo2 a{
+    text-transform: uppercase;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    color: #000000;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.paragrafo2 a:hover{
+    background-color: #000000;
+    color: #F5F5F5;
+    text-decoration-color: white;
+}
+
+.paragrafo3 h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 48px;
+}
+
+.paragrafo3 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0px 400px;
+}
+
+.paragrafo3 img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.paragrafo3 a{
+    text-transform: uppercase;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    width: fit-content;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.paragrafo3 a:hover{
+    background-color: #000000;
+    color: #F5F5F5;
+    text-decoration-color: white;
+}
+
+.paragrafo4 div {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 100px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-align: justify;
+background-color: #011ABA;
+}
+
+.paragrafo4 p{
+    margin-right: 200px;
+    margin-bottom: 700px;
+    font-size: 20px;
+}
+
+.ultimotitolo{
+    text-align: left;
+    margin: 20px;
+    margin-top: 100px;
+    font-size: 48px;
+}
+
+
+footer{
+    display: flex;
+padding: 5px;
+justify-content: space-between;
+align-items:center;
+text-decoration: none;
+text-transform: uppercase;
+background-color: #000000;
+color: #F5F5F5;
+}
